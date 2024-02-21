@@ -47,10 +47,6 @@ ax.axvline(0, color='black',linewidth=0.5)
 ax.legend()
 st.pyplot(fig)
 
-import streamlit as st
-import numpy as np
-import matplotlib.pyplot as plt
-
 # Function to calculate the integral of f(x) from x1 to x2
 def calculate_integral(a, b, c, x1, x2):
     # Define the function f(x) = ax^2 + bx - c
