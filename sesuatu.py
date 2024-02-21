@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+from scipy.integrate import quad
 
 x = st.slider('Pilih rentang', 0.0, 2.0, (.2, .5))
 st.write('nilai x:', x)
