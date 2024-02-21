@@ -22,12 +22,12 @@ plt.grid(color='green', linestyle='-.', linewidth=.5)
 st.pyplot(fig)
 
 # Input sliders for a, b, and c
-a = st.slider('Masukkan nilai a', -10.0, 10.0, 1.0)
-b = st.slider('Masukkan nilai b', -10.0, 10.0, 1.0)
-c = st.slider('Masukkan nilai c', -10.0, 10.0, 0.0)
+a = st.slider('Masukkan nilai a', -10.0, 30.0, 1.0)
+b = st.slider('Masukkan nilai b', -10.0, 30.0, 1.0)
+c = st.slider('Masukkan nilai c', -10.0, 30.0, 0.0)
 
 # Slider for x range
-x_range = st.slider('Pilih rentang', -10.0, 10.0, (-2.0, 2.0))
+x_range = st.slider('Pilih rentang', -10.0, 30.0, (-2.0, 2.0))
 
 # Generate x values
 x_values = np.linspace(x_range[0], x_range[1], 400)
